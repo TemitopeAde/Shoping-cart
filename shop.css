@@ -1,0 +1,62 @@
+/* Reset some default browser styles */
+body, h1, p, input, select {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#products {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#products div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#products h2 {
+    font-size: 20px;
+}
+
+#products p {
+    color: #666;
+}
+
+/* Style the "No products found" message */
+#products p.no-products {
+    font-style: italic;
+    color: #999;
+}
+
+/* Style the submit button */
+button {
+    padding: 5px 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

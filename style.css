@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#searchButton {
+    padding: 5px 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+   display: grid;
+   grid-template-columns:  repeat(4, 1fr);
+   gap: 1rem;
+}
+
+#pagination {
+    margin-top: 10px;
+}
